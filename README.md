@@ -1,4 +1,4 @@
-# Heap-Implementation-
+# HEAPS
 A Heap is a data structure used to store data, that emulates a Tree. 
 A heap is essentially a tree that is complete, i.e all nodes are filled from left to right and satisifes 
  the heap property i.e for every node, it's child is either less than or equal to its value. 
