@@ -15,6 +15,9 @@ Afterwards we check if the root node  is less than the child node, if so, we bri
 The remove() method removes the first item (largest array value in the case of a max heap tree) in the tree . It doesn’t actually remove the item from the heap like you remove an apple from a tree, we simply reduce the number of the apples in the tree, in this case, we reduce the array size after setting the first item to the last item. 
 After which we swap() the items so that we have a heap that is in correct order (larger value as the root node). 
 
+This method also implements a Sorting paradigm,  sortInDescendingOrder() that sorts and prints the values in an array in a descending order, and also 
+ sortInAscendingOrder that sorts and prints the values in an array in an ascending order.
+
 Application of Heap Data Structure 
 1. Heaps are commonly used to implement priority queues, where elements are retrieved based on their priority (maximum or minimum value).
 2. Heapsort is a sorting algorithm that uses a heap to sort an array in ascending or descending order.
